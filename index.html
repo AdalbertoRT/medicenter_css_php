@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>MediCenter</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,user-scalable=0">
+	<link rel="shortcut icon" type="image/x-png" href="favicon.ico">
+	<link rel="stylesheet" type="text/css" href="assets/css/template.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+
+	<script type="text/javascript">
+		window.onload = function() {
+			document.querySelector(".menuMobile").addEventListener("click", function() {
+				if(document.querySelector(".menu nav ul").style.display == 'flex') {
+					document.querySelector(".menu nav ul").style.display = 'none';	
+				} else {
+					document.querySelector(".menu nav ul").style.display = 'flex';
+				}
+			});
+		};
+	</script>
+</head>
+<body>
+
+	<header>
+		<div class="container">
+			<div class="logo">
+				<a href="index.html" title="Clique aqui para voltar para a home"><img src="assets/images/logo.png"></a>
+			</div>
+			<div class="menu">
+				<nav>
+					<div class="menuMobile">
+						<div class="mmLine"></div>
+						<div class="mmLine"></div>
+						<div class="mmLine"></div>
+					</div>
+					<ul>
+						<li class="active"><a href="#">INÍCIO</a></li>
+						<li><a href="#">BLOG</a></li>
+						<li><a href="#">PÁGINAS</a></li>
+						<li><a href="#">DEPARTMENTOS</a></li>
+						<li><a href="#">AGENDA</a></li>
+						<li><a href="#">GALERIA</a></li>
+						<li><a href="#">CONTATO</a></li>
+					</ul>
+				</nav>
+			</div>
+		</div>
+	</header>
+
+	<section id="banner">
+		<div class="container column">
+			<div class="bannerHeadline">
+				<h1>Experiência de alto nível</h1>
+				<h2>O Medicenter é um modelo responsivo perfeito para todos os tamanhos de tela.</h2>
+			</div>
+			<div class="bannerOptions">
+				<div id="banner1">
+					<div>
+						<div class="bannerTitle">Caso de Emergência</div>
+						<div class="bannerDesc">Se precisar urgentemente de um médico fora do horário de atendimento do Medicenter, ligue para o número de atendimento de emergência do serviço de emergência.</div>
+					</div>
+					<a href="">Leia mais &#8674</a>
+				</div>
+				<div id="banner2">
+					<div>
+						<div class="bannerTitle">Horário dos Médicos</div>
+						<div class="bannerDesc">Aqui no Medicenter nós temos uma lista de médicos particulares. Clique em ler mais abaixo para ver os serviços e a agenda atual dos nossos médicos.</div>
+						</div>
+						<a href="">Leia mais &#8674</a>
+				</div>
+				<div id="banner3">
+					<div>
+						<div class="bannerTitle">Horário de Funcionamento</div>
+						<div class="bannerDesc">
+							<div class="bannerHours">
+								<span>Segunda - Sexta</span><span>8:00 - 17:00</span>
+							</div>
+							<div class="bannerHours">
+								<span>Sábado</span><span>9:30 - 17:30</span>
+							</div>
+							<div class="bannerHours">
+								<span>Domingo</span><span>9:30 - 15:00</span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="conteudo">
+		<div class="container">
+			<section>
+				<div class="widget">
+					<div class="widgetTitle">
+						<div class="widgetTitleText">Últimas Notícias</div>
+						<div class="widgetTitleBar"></div>
+					</div>
+					<div class="widgetContent flex">
+
+						<article>
+							<a href="">
+								<div class="noticiaInfo">
+									<div class="noticiaData">05 JUL 2017</div>
+									<div class="noticiaComentarios">2</div>
+								</div>
+								<div class="noticiaThumbnail">
+									<img src="assets/images/pediatra.jpg">
+								</div>
+								<div class="noticiaTitle">
+									Lorem ipsum dolor sit amat velum
+								</div>
+								<div class="noticiaTexto">
+									Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+									tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+									quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+									consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+									cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+									proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+								</div>
+							</a>
+						</article>
+
+						<article>
+							<a href="">
+								<div class="noticiaInfo">
+									<div class="noticiaData">05 JUL 2017</div>
+									<div class="noticiaComentarios">2</div>
+								</div>
+								<div class="noticiaThumbnail">
+									<img src="assets/images/geriatra.jpg">
+								</div>
+								<div class="noticiaTitle">
+									Lorem ipsum dolor sit amat velum
+								</div>
+								<div class="noticiaTexto">
+									Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+									tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+									quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+									consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+									cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+									proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+								</div>
+							</a>
+						</article>
+
+						<article>
+							<a href="">
+								<div class="noticiaInfo">
+									<div class="noticiaData">05 JUL 2017</div>
+									<div class="noticiaComentarios">2</div>
+								</div>
+								<div class="noticiaThumbnail">
+									<img src="assets/images/obstetra.jpg">
+								</div>
+								<div class="noticiaTitle">
+									Lorem ipsum dolor sit amat velum
+								</div>
+								<div class="noticiaTexto">
+									Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+									tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+									quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+									consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+									cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+									proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+								</div>
+							</a>
+						</article>
+
+						<article>
+							<a href="">
+								<div class="noticiaInfo">
+									<div class="noticiaData">05 JUL 2017</div>
+									<div class="noticiaComentarios">2</div>
+								</div>
+								<div class="noticiaThumbnail">
+									<img src="assets/images/oftalmo.jpg">
+								</div>
+								<div class="noticiaTitle">
+									Lorem ipsum dolor sit amat velum
+								</div>
+								<div class="noticiaTexto">
+									Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+									tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+									quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+									consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+									cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+									proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+								</div>
+							</a>
+						</article>
+					</div>
+				</div>
+			</section>
+			
+			<aside>
+				<div class="widget">
+					<div class="widgetTitle">
+						<div class="widgetTitleText">Departamentos</div>
+						<div class="widgetTitleBar"></div>
+						<div class="departamentos">
+							<div class="departamentosLeft">
+								<div id="dep1"><a href="#" ></a></div>
+								<div id="dep2"><a href="#" ></a></div>
+								<div id="dep3"><a href="#" ></a></div>
+							</div>
+							<div class="departamentosRight">
+								<div id="dep4"><a href="#" ></a></div>
+								<div id="dep5"><a href="#" ></a></div>
+								<div id="dep6"><a href="#" ></a></div>
+							</div>
+						</div>
+					</div>
+					<div class="widgetContent"></div>
+				</div>
+				<div class="widget">
+					<div class="widgetTitle">
+						<div class="widgetTitleText">Marque uma Consulta</div>
+						<div class="widgetTitleBar"></div>
+					</div>
+					<div class="widgetOpcoes">
+						<div id="descricao">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+						</div>
+						<div id="opcoes">
+							<div class="opt">
+								<div class="icone"><i class="fas fa-phone" style="margin-left: 3px;"></i></div><span class="optTexto">Pelo Telefone <strong> (22) 3344-5566</strong></span>
+							</div>
+							<div class="opt">
+								<div class="icone"><i class="far fa-envelope" style="margin-left: 3px;"></i></div><span class="optTexto">Pelo Email: <a href="" style="color: #39aaef">medicenter@mail.com</a></span>
+							</div>
+							<div class="opt">
+								<div class="icone"><i class="fab fa-wpforms" style="margin-left: 3px;"></i></div><span class="optTexto">Ou <a href="" style="color: #39aaef">preencha o formulário</a> em nossa página de contato.</span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</aside>
+		</div>
+	</section>
+
+	<footer>
+		<div class="container">
+			<div class="footerMenu">
+				<div id="fm1">
+					<h1>Plano de Saúde</h1>
+					<h3>Aqui no Medcenter temos os melhores &#8674</h3>
+				</div>
+				<div id="fm2">
+					<h1>Registros Médicos</h1>
+					<h3>Aqui no Medcenter temos os melhores &#8674</h3>
+				</div>
+				<div id="fm3">
+					<h1>Plano de Saúde</h1>
+					<h3>Aqui no Medcenter temos os melhores &#8674</h3>
+				</div>
+			</div>
+
+			<div class="footerContent">
+
+				<div class="widget" id="contato">
+					<div class="widgetTitle">
+						<div class="widgetTitleText">Medicenter Clínica</div>
+						<div class="widgetTitleBar"></div>
+					</div>
+					<div class="widgetOpcoes">
+						<div id="descricao">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+						</div>
+						<table>
+							<tr><td>Clínica Medcenter</td></tr>
+							<tr><td>33 Farlane Street</td><td class="direita">+123 456 789</td></tr>
+							<tr><td>Keilor East</td><td class="direita">+123 456 789</td></tr>
+							<tr><td>VIC 3033, Austrália</td><td class="direita">medicenter@mail.com</td></tr>
+						</table>
+						<ul>
+							<li><a href="#"><i class="fab fa-facebook"></i></a></li>
+							<li><a href="#"><i class="fab fa-twitter"></i></a></li>
+							<li><a href="#"><i class="far fa-calendar-alt"></i></a></li>
+							<li><a href="#"><i class="far fa-envelope"></i></a></li>
+						</ul>
+					</div>
+				</div>
+
+				<div class="widget" id="postagens">
+					<div class="widgetTitle">
+						<div class="widgetTitleText">Últimas Postagens</div>
+						<div class="widgetTitleBar"></div>
+					</div>
+					<div class="widgetOpcoes">
+						<div class="posts">
+							<div id="post1">
+								<div class="seta">&#8674 </div><div class="postText">
+									Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+									tempor incididunt ut labore et dolore magna aliqua.   
+								</div>
+							</div>
+							<div id="post2">
+								<div class="seta">&#8674 </div><div class="postText">
+									Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+									consequat.
+								</div>
+							</div>
+							<div id="post3">
+								<div class="seta">&#8674</div><div class="postText">
+									Duis aute irure dolor in reprehenderit in voluptate velit esse
+									cillum dolore eu fugiat nulla pariatur.
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="redesSociais">
+					<div class="widget" id="social">
+						<div class="widgetTitle">
+							<div class="widgetTitleText">Rede Social</div>
+							<div class="widgetTitleBar"></div>
+						</div>
+						<div class="widgetOpcoes">
+							<iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fmedicos&tabs=timeline&width=320&height=400&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="320" height="400" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>					
+						</div>
+					</div>
+
+					<div class="widget" id="siganos">
+						<div class="widgetTitle">
+							<div class="widgetTitleText">Siga-nos</div>
+							<div class="widgetTitleBar"></div>
+						</div>
+						<div class="widgetOpcoes">
+							<ul>
+								<li><a href="#"><i class="fab fa-facebook"></i></a></li>
+								<li><a href="#"><i class="fab fa-twitter"></i></a></li>
+								<li><a href="#"><i class="far fa-calendar-alt"></i></a></li>
+								<li><a href="#"><i class="far fa-envelope"></i></a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="footerCopy">
+				&copy COPYRIGHT - Todos os direitos reservados.
+			</div>
+
+		</div>
+		
+	</footer>
+
+</body>
+</html>
